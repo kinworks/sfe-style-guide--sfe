@@ -2,7 +2,7 @@
 	"version": 3,
 	"file": "10-abbreviations.css",
 	"sources": [
-		"../../../../../10-abbreviations.scss"
+		"../../../../../../../../../10-abbreviations.scss"
 	],
 	"sourcesContent": [],
 	"mappings": "AAAA,AAAY;EACX,AAAe;EACf,AAAQ",

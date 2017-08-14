@@ -45,3 +45,17 @@
   max-width: 18em;
   width: 18em;
 }
+
+.legacy-ie {
+  display: none;
+}
+
+.lt-ie8 .legacy-ie {
+  display: block;
+  width: 100%;
+  background-color: $error;
+  padding: 1.2em 1.5em;
+  color: $dark-text;
+  font-size: 1.2em;
+  font-weight: 600;
+}

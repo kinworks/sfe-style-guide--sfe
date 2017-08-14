@@ -3605,6 +3605,18 @@ by side rather than stacked */
   max-width: 18em;
   width: 18em; }
 
+.legacy-ie {
+  display: none; }
+
+.lt-ie8 .legacy-ie {
+  display: block;
+  width: 100%;
+  background-color: #FFF3B3;
+  padding: 1.2em 1.5em;
+  color: #2D3030;
+  font-size: 1.2em;
+  font-weight: 600; }
+
 .pattern {
   background: url(../../assets/pattern.png);
   background: url(../../assets/pattern.svg), linear-gradient(transparent, transparent);
