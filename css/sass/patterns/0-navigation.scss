@@ -371,19 +371,23 @@
     }
     &:nth-child(1) {
 	    padding: 0.4em 2% 0.6em 1.5%;
+	    width: 13%;
     }
-    &:nth-child(1),
-    &:nth-child(5) {
-	    padding: 0.4em 2% 0.6em 1.5%;
-	    width: 11%;
+    &:nth-child(2) {
+	    width: 18%;
     }
-    &:nth-child(2),
-    &:nth-child(3),
+    &:nth-child(3) {
+	    width: 20%;
+    }
     &:nth-child(4) {
 	    width: 20%;
     }
+    &:nth-child(5) {
+	    padding: 0.4em 2% 0.6em 1.5%;
+	    width: 13%;
+    }
     &:nth-child(6) {
-			width: 17%;
+			width: 16%;
 			padding: 0.4em 0 0.6em 1.5%;
 		}
   }
@@ -394,7 +398,7 @@
   }
   
   .js .main-nav .parent .sectiontoggle {
-    float: left;
+    float: right;
     padding-left: 5%;
   }
   
@@ -454,3 +458,56 @@
   }
   
 } //end min 56em
+
+@media only all and (min-width: 64em) { 
+	
+	.nav-collapse .main-nav {
+    height: 3.4em;
+  }
+	
+	.main-nav li {
+		height: 3.4em;
+    &:nth-child(1) {
+	    padding: 0.4em 2% 0.6em 1.5%;
+	    width: 11%;
+    }
+    &:nth-child(2) {
+	    width: 16%;
+    }
+    &:nth-child(3) {
+	    width: 28%;
+    }
+    &:nth-child(4) {
+	    width: 18%;
+    }
+    &:nth-child(5) {
+	    padding: 0.4em 2% 0.6em 1.5%;
+	    width: 11%;
+    }
+    &:nth-child(6) {
+			width: 16%;
+			padding: 0.4em 0 0.6em 1.5%;
+		}
+  }
+  
+  .main-nav li:hover .sub-menu {
+    margin-top: 3.3em;
+  }
+
+  .js nav.nav-collapse .main-nav ul.sub-menu.open {
+    margin: 3.3em 0 0 0;
+  }
+  
+  .js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(1),
+  .js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(2),
+	.js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(3),	
+	.js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(4),
+	.js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(5),
+	.js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(6) {
+		width: auto;
+		min-width: auto; 
+	}
+
+
+	
+} // end min 64em

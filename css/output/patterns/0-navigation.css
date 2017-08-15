@@ -273,19 +273,24 @@
     .main-nav li:last-child {
       margin-right: 0; }
     .main-nav li:nth-child(1) {
-      padding: 0.4em 2% 0.6em 1.5%; }
-    .main-nav li:nth-child(1), .main-nav li:nth-child(5) {
       padding: 0.4em 2% 0.6em 1.5%;
-      width: 11%; }
-    .main-nav li:nth-child(2), .main-nav li:nth-child(3), .main-nav li:nth-child(4) {
+      width: 13%; }
+    .main-nav li:nth-child(2) {
+      width: 18%; }
+    .main-nav li:nth-child(3) {
       width: 20%; }
+    .main-nav li:nth-child(4) {
+      width: 20%; }
+    .main-nav li:nth-child(5) {
+      padding: 0.4em 2% 0.6em 1.5%;
+      width: 13%; }
     .main-nav li:nth-child(6) {
-      width: 17%;
+      width: 16%;
       padding: 0.4em 0 0.6em 1.5%; }
   .main-nav .parent-item {
     max-width: 70%; }
   .js .main-nav .parent .sectiontoggle {
-    float: left;
+    float: right;
     padding-left: 5%; }
   .main-nav .sub-menu {
     visibility: hidden;
@@ -321,5 +326,33 @@
     height: auto;
     padding: 0 1em 0 0;
     font-size: 1em; } }
+
+@media only all and (min-width: 64em) {
+  .nav-collapse .main-nav {
+    height: 3.4em; }
+  .main-nav li {
+    height: 3.4em; }
+    .main-nav li:nth-child(1) {
+      padding: 0.4em 2% 0.6em 1.5%;
+      width: 11%; }
+    .main-nav li:nth-child(2) {
+      width: 16%; }
+    .main-nav li:nth-child(3) {
+      width: 28%; }
+    .main-nav li:nth-child(4) {
+      width: 18%; }
+    .main-nav li:nth-child(5) {
+      padding: 0.4em 2% 0.6em 1.5%;
+      width: 11%; }
+    .main-nav li:nth-child(6) {
+      width: 16%;
+      padding: 0.4em 0 0.6em 1.5%; }
+  .main-nav li:hover .sub-menu {
+    margin-top: 3.3em; }
+  .js nav.nav-collapse .main-nav ul.sub-menu.open {
+    margin: 3.3em 0 0 0; }
+  .js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(1), .js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(2), .js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(3), .js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(4), .js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(5), .js nav.nav-collapse .main-nav ul.sub-menu li:nth-child(6) {
+    width: auto;
+    min-width: auto; } }
 
 /*# sourceMappingURL=0-navigation.css.map */
