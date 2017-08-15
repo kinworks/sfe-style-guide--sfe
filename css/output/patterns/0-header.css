@@ -191,8 +191,8 @@
 @media only all and (min-width: 88.75em) {
   .header__part--brand {
     text-align: right; }
-  .header__part--brand .icon-mie-logo {
-    margin: 1.75em 22.5em 0.75em 0; }
+  .header__part--brand .icon-sfe-logo {
+    margin: 1.75em 22.75em 0.75em 0; }
   .header__part--search {
     text-align: left;
     padding: 0; }

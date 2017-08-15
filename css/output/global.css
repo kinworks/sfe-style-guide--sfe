@@ -1501,8 +1501,8 @@ footer i {
 @media only all and (min-width: 88.75em) {
   .header__part--brand {
     text-align: right; }
-  .header__part--brand .icon-mie-logo {
-    margin: 1.75em 22.5em 0.75em 0; }
+  .header__part--brand .icon-sfe-logo {
+    margin: 1.75em 22.75em 0.75em 0; }
   .header__part--search {
     text-align: left;
     padding: 0; }
@@ -3569,35 +3569,6 @@ by side rather than stacked */
     padding: 0.8em 0 0 0; }
   tbody tr:nth-child(odd) {
     background-color: white; } }
-
-.pattern {
-  background: url(../../assets/pattern.png);
-  background: url(../../assets/pattern.svg), linear-gradient(transparent, transparent);
-  /* This trick ensures that our background SVG is only 
-    used in browsers that support it (a 'coincidence'
-    feature test): https://css-tricks.com/a-complete-guide-to-svg-fallbacks/#fallback-svg-css-background-image */ }
-
-.pattern-dark {
-  background: url(../../assets/pattern-dark.png);
-  background: url(../../assets/pattern-dark.svg), linear-gradient(transparent, transparent);
-  /* This trick ensures that our background SVG is only 
-    used in browsers that support it (a 'coincidence'
-    feature test): https://css-tricks.com/a-complete-guide-to-svg-fallbacks/#fallback-svg-css-background-image */ }
-
-.icon-pattern, .icon-pattern-dark {
-  background-repeat: repeat; }
-
-.bg--dark {
-  background-color: #2D3030; }
-
-.bg--mid {
-  background-color: #288098; }
-
-.bg--light {
-  background-color: #98D7E2; }
-
-.bg--light-pastel {
-  background-color: #bcdfe6; }
 
 .lt-ie9 .heading, .lt-ie9 h1.guidance, .lt-ie9 h2.guidance, .lt-ie9 h3.guidance {
   font-weight: 700; }
